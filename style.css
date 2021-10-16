@@ -73,6 +73,7 @@ nav {
     top: 104px;
     z-index: 1;
     padding: 32px;
+    padding-top: 16px;
     transition: 0.2s;
     background: #236;
     color: white;
