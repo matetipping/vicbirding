@@ -35,6 +35,7 @@ button#nav-hamburger div {
     height: 6px;
     display: block;
     margin-bottom: 21px;
+    border-radius: 3px;
 }
 div#nav-hamburger-3 {
     margin-bottom: 0;
