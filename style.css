@@ -92,13 +92,6 @@ nav li {
 nav a {
     color: white;
 }
-main {
-   padding: 32px;
-   position: absolute;
-   top: 164px;
-   width: 100%;
-   box-sizing: border-box;
-}
 div#hero {
     width: 100%;
     height: fit-content;
@@ -106,10 +99,17 @@ div#hero {
     margin: 0;
     padding: 0;
     top: 184px;
-    position: absolute;
+    position: relative;
 }
 div#hero img {
     width: 100%;
+}
+main {
+   padding: 32px;
+   position: relative;
+   top: 184px;
+   width: 100%;
+   box-sizing: border-box;
 }
 h1 {
    color: #fff;
