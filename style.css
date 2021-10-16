@@ -96,14 +96,16 @@ nav a {
 }
 div#hero {
     width: 100%;
-    height: fit-content;
+    height: 320px;
     margin: 0;
     padding: 0;
     top: 184px;
     position: relative;
+    overflow: hidden;
 }
 div#hero img {
     width: 100%;
+    position: absolute;
     transition: 0.2s;
 }
 div#hero div#copyright {
