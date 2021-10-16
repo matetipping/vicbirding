@@ -101,7 +101,8 @@ main {
 }
 div#hero {
    width: 100%;
-   background-img: url('/images/hero-1.jpg');
+   background: #58a;
+   height: 300px;
 }
 h1 {
    color: #fff;
