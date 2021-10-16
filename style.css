@@ -108,6 +108,9 @@ div#hero {
     top: 184px;
     position: absolute;
 }
+div#hero img {
+    width: 100%;
+}
 h1 {
    color: #fff;
    font-size: 32px;
