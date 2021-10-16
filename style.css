@@ -10,6 +10,9 @@ a {
     color: #46a;
     font-weight: bold;
 }
+a:hover {
+    color: #68c;
+}
 header {
     padding: 0;
     margin: 0;
