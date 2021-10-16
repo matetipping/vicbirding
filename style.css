@@ -68,6 +68,14 @@ nav {
 nav.closed {
     display: none;
 }
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+nav ul li {
+    margin-top: 6px;
+    margin-bottm: 6px;
+}
 main {
    padding: 32px;
    position: absolute;
