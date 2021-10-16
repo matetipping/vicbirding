@@ -124,6 +124,7 @@ div#hero-navigation {
     bottom: 64px;
 }
 div.hero-navigation-button {
+    cursor: pointer;
     width: 16px;
     height: 16px;
     border-radius: 8px;
@@ -131,7 +132,7 @@ div.hero-navigation-button {
     display: inline-block;
     margin: 6px;
 }
-div.hero-navigation-button-selected {
+div.hero-navigation-button.selected {
     background: white;
 }
 main {
