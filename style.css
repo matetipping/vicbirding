@@ -87,9 +87,12 @@ nav ul {
     margin: 0;
     text-align: right;
 }
-nav ul li {
+nav li {
     margin-top: 6px;
     margin-bottm: 6px;
+}
+nav a {
+    color: white;
 }
 main {
    padding: 32px;
