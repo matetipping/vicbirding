@@ -22,7 +22,9 @@ function resizeHeader() {
 function openNavMenu() {
   if (document.getElementById("nav-hamburger").classList.contains("selected")) {
     document.getElementById("nav-hamburger").classList.remove("selected");
+    document.getElementsByTagName("nav")[0].style.right = "-250px";
   } else {
     document.getElementById("nav-hamburger").classList.add("selected");
+    document.getElementsByTagName("nav")[0].style.right = "0px";
   }
 }
