@@ -115,6 +115,22 @@ div#hero div#copyright {
     font-weight: bold;
     text-shadow: 0px 0px 12px black;
 }
+div#hero-navigation {
+    margin: auto;
+    background: none;
+    height: 32px;
+    width: fit-content;
+    position: relative;
+    bottom: 64px;
+}
+div.hero-navigation-button {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background: white;
+    display: inline-block;
+    margin: 6px;
+}
 main {
    padding: 32px;
    position: relative;
