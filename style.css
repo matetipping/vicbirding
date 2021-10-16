@@ -78,6 +78,7 @@ nav {
     background: #236;
     color: white;
     border-bottom-left-radius: 32px;
+    font-size: 18px;
 }
 nav ul {
     list-style: none;
@@ -85,8 +86,8 @@ nav ul {
     text-align: right;
 }
 nav li {
-    margin-top: 6px;
-    margin-bottm: 6px;
+    margin-top: 12px;
+    margin-bottm: 12px;
 }
 nav a {
     color: white;
