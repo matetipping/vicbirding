@@ -53,6 +53,9 @@ button.selected div#nav-hamburger-3 {
     transform: translate(0, -18px) rotate(-45deg);
 }
 nav {
+    display: none;
+}
+nav.open {
     float: right;
     margin-right: 32px;
 }
