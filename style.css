@@ -127,9 +127,12 @@ div.hero-navigation-button {
     width: 16px;
     height: 16px;
     border-radius: 8px;
-    background: white;
+    background: rgba(255, 255, 255, 0.5);
     display: inline-block;
     margin: 6px;
+}
+div.hero-navigation-button-selected {
+    background: white;
 }
 main {
    padding: 32px;
