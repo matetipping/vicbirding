@@ -101,7 +101,7 @@ main {
 }
 div#hero {
     width: 100%;
-    height: 300px;
+    height: fit-content;
     background: #ace;
     margin: 0;
     padding: 0;
