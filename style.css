@@ -29,6 +29,9 @@ button#nav-hamburger {
     margin-top: 32px;
     padding: 0;
 }
+butto#nav-hamburger div#nav-hamburger-3 {
+    margin-bottom: 0;
+}
 button#nav-hamburger div {
     width: 60px;
     background: white;
@@ -36,9 +39,6 @@ button#nav-hamburger div {
     display: block;
     margin-bottom: 21px;
     border-radius: 3px;
-}
-div#nav-hamburger-3 {
-    margin-bottom: 0;
 }
 nav {
     float: right;
