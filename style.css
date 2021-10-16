@@ -12,7 +12,8 @@ header {
     background-color: #236;
     position: absolute;
     padding: 32px;
-    height: 120px;
+    height: 184px;
+    box-sizing: border-box;
 }
 main {
    padding: 32px;
