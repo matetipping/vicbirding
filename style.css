@@ -72,6 +72,7 @@ nav.closed {
 nav ul {
     list-style: none;
     margin: 0;
+    text-align: right;
 }
 nav ul li {
     margin-top: 6px;
