@@ -1,5 +1,5 @@
 window.onscroll = function() {resizeHeader()};
-window.onload = function() {setHandlers();
+window.onload = function() {setHandlers()};
 
 function setHandlers() {
   document.getElementById("nav-hamburger").onclick = function() {openNavMenu()};
