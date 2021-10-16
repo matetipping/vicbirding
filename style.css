@@ -106,6 +106,16 @@ div#hero {
 div#hero img {
     width: 100%;
 }
+div#hero div#copyright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 16px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 0px 12px black;
+}
 main {
    padding: 32px;
    position: relative;
