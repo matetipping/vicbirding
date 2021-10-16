@@ -64,6 +64,7 @@ nav {
     z-index: 1;
     padding: 32px;
     padding-top: 0;
+    transition: 0.2s;
 }
 nav.closed {
     display: none;
