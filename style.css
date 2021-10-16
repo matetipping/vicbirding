@@ -99,6 +99,10 @@ main {
    width: 100%;
    box-sizing: border-box;
 }
+div#hero {
+   width: 100%;
+   background-img: url('/images/hero-1.jpg');
+}
 h1 {
    color: #fff;
    font-size: 32px;
