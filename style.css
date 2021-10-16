@@ -1,0 +1,39 @@
+img#logo {
+    height: 120px;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+header {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #236;
+    position: absolute;
+    padding: 32px;
+    height: 120px;
+}
+main {
+   padding: 32px;
+   position: absolute;
+   top: 164px;
+   width: 100%;
+   box-sizing: border-box;
+}
+h1 {
+   color: #fff;
+   font-size: 32px;
+   margin: 0;
+}
+h2 {
+   color: #466199;
+   font-size: 24px;
+}
+p {
+   color: #222;
+   font-size: 16px;
+}
+s {
+   color: #f52;
+}
