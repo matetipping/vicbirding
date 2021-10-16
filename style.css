@@ -43,6 +43,15 @@ button#nav-hamburger div {
     border-radius: 3px;
     transition: 0.2s;
 }
+button.selected div#nav-hamburger-1 {
+    transform: translate(0, 18px) rotate(45deg);
+}
+button.selected div#nav-hamburger-2 {
+    width: 0;
+}
+button.selected div#nav-hamburger-3 {
+    transform: translate(0, -18px) rotate(-45deg);
+}
 nav {
     float: right;
     margin-right: 32px;
