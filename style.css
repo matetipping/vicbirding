@@ -17,7 +17,8 @@ header {
     padding: 0;
     margin: 0;
     width: 100%;
-    background-color: #236;
+    background: #236;
+    background: linear-gradient(343deg, rgba(32,48,96,1) 0%, rgba(32,60,96,1) 37%, rgba(30,121,152,1) 87%, rgba(29,164,192,1) 100%);
     position: fixed;
     padding: 32px;
     height: 184px;
