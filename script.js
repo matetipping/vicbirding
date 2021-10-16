@@ -10,12 +10,12 @@ function resizeHeader() {
     document.getElementsByTagName("header")[0].style.height = "124px";
     document.getElementsByTagName("header")[0].getElementsByTagName("img")[0].style.height = "60px";
     document.getElementById("nav-hamburger").style.marginTop = "0";
-    document.getElementsByTagName("nav")[0].style.top = "88px";
+    document.getElementsByTagName("nav")[0].style.top = "104px";
   } else {
     document.getElementsByTagName("header")[0].style.height = "184px";
     document.getElementsByTagName("header")[0].getElementsByTagName("img")[0].style.height = "120px";
     document.getElementById("nav-hamburger").style.marginTop = "32px";
-    document.getElementsByTagName("nav")[0].style.top = "120px";
+    document.getElementsByTagName("nav")[0].style.top = "136px";
   }
 }
 
