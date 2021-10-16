@@ -64,7 +64,6 @@ button.selected div#nav-hamburger-3 {
 }
 nav {
     float: right;
-    margin-right: 32px;
     display: block;
     position: fixed;
     right: 0px;
