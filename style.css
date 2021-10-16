@@ -39,6 +39,9 @@ button#nav-hamburger {
     cursor: pointer;
     transition: 0.2s;
 }
+button#nav-hamburger:hover div {
+    background: #68c;
+}
 div#nav-hamburger-2 {
     margin-top: 12px;
     margin-bottom: 12px;
