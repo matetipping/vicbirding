@@ -161,3 +161,8 @@ p {
 s {
    color: #f52;
 }
+tr {
+   text-align: left;
+   vertical-align: top;
+   line-height: 30px;
+}
