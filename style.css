@@ -161,6 +161,16 @@ p {
 s {
    color: #f52;
 }
+table {
+   border-collapse:collapse; 
+}
+thead tr {
+   color: white;
+   background: #466199;
+}
+th, td {
+   padding: 2px 8px;
+}
 tr {
    text-align: left;
    vertical-align: top;
