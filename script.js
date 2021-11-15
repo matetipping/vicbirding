@@ -6,13 +6,10 @@ function startScript() {
   var heroNavButtons = document.getElementsByClassName("hero-navigation-button");
   
   var noHeroImgs = document.getElementsByClassName("hero-navigation-button").length;
-  var currentHero = Number(document.getElementsByClassName("hero-navigation-button selected")[0].id.split("-")[2]);
-  var heroShuffler = setInterval(function(){
-    shuffleHero(currentHero, noHeroImgs);
-  }, 5000);
+  shuffleHero(1, noHeroImgs);
   Array.prototype.forEach.call(heroNavButtons, function(el) {
     el.addEventListener("click", function() {
-      heroShuffler = shiftHero(el, heroShuffler);
+      shiftHero(el);
     });
   });
 }
@@ -41,29 +38,25 @@ function openNavMenu() {
   }
 }
 
-function shiftHero(el, shuffler) {
+function shiftHero(el) {
+  var newHero = Number(el.id.split("-")[2]);
+  var total = document.getElementsByClassName("hero-navigation-button").length;
+  shuffleHero(newHero, noHeroImgs);
+}
+
+function shuffleHero(current, total) {
   document.getElementsByClassName("hero-navigation-button selected")[0].classList.remove("selected");
-  el.classList.add("selected");
-  var selectedImageNo = el.id.split("-")[2];
-  var heroPositionOffset = (Number(selectedImageNo) - 1) * 100;
+  document.getElementById("hero-navigation-" + current).classList.add("selected");
+  var heroPositionOffset = (Number(current) - 1) * 100;
   document.getElementById("hero-image-1").style.left = String(0 - heroPositionOffset) + "%";
   document.getElementById("hero-image-2").style.left = String(100 - heroPositionOffset) + "%";
   document.getElementById("hero-image-3").style.left = String(200 - heroPositionOffset) + "%";
   document.getElementById("hero-image-4").style.left = String(300 - heroPositionOffset) + "%";
   document.getElementById("hero-image-5").style.left = String(400 - heroPositionOffset) + "%";
-  var noHeroImgs = document.getElementsByClassName("hero-navigation-button").length;
-  clearInterval(shuffler);
-  return setInterval(function(){
-    shuffleHero(Number(selectedImageNo), noHeroImgs);
-  }, 5000);
-}
-
-function shuffleHero(current, total) {
-  if (current < total) {
-      current ++;
-    } else {
+  setTimeout(function(){
+    if (current >= total) {
       current = 1;
     }
-    var el = document.getElementById("hero-navigation-" + current);
-    shiftHero(el);
+    shuffleHero(current, total);
+  }, 5000);
 }
