@@ -53,7 +53,7 @@ function shuffleHero(current, total) {
   document.getElementById("hero-image-3").style.left = String(200 - heroPositionOffset) + "%";
   document.getElementById("hero-image-4").style.left = String(300 - heroPositionOffset) + "%";
   document.getElementById("hero-image-5").style.left = String(400 - heroPositionOffset) + "%";
-  setTimeout(function(){
+  var nextShuffle = setTimeout(function(){
     if (current >= total) {
       current = 1;
     }
