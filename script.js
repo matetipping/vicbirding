@@ -49,7 +49,7 @@ function shiftHero(el) {
 }
 
 function shuffleHero() {
-  var noHeroImgs = document.getElementsByClassName("hero-image").length;
+  var noHeroImgs = document.getElementsByClassName("hero-navigation-button").length;
   var currentHero = Number(document.getElementsByClassName("hero-navigation-button selected")[0].id.split("-")[2]);
   var heroShuffler = setInterval(function(){
     if (currentHero < noHeroImgs) {
