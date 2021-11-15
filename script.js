@@ -41,9 +41,9 @@ function shiftHero(el) {
   var selectedImageNo = el.id.split("-")[2];
   var heroPositionOffset = (Number(selectedImageNo) - 1) * 100;
   console.log(selectedImageNo);
-  document.getElementById("hero-image-1").css("left", String(0 - heroPositionOffset) + "%");
-  document.getElementById("hero-image-2").css("left", String(100 - heroPositionOffset) + "%");
-  document.getElementById("hero-image-3").css("left", String(200 - heroPositionOffset) + "%");
-  document.getElementById("hero-image-4").css("left", String(300 - heroPositionOffset) + "%");
-  document.getElementById("hero-image-5").css("left", String(400 - heroPositionOffset) + "%");
+  document.getElementById("hero-image-1").style.left = String(0 - heroPositionOffset) + "%";
+  document.getElementById("hero-image-2").style.left = String(100 - heroPositionOffset) + "%";
+  document.getElementById("hero-image-3").style.left = String(200 - heroPositionOffset) + "%";
+  document.getElementById("hero-image-4").style.left = String(300 - heroPositionOffset) + "%";
+  document.getElementById("hero-image-5").style.left = String(400 - heroPositionOffset) + "%";
 }
