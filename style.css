@@ -176,12 +176,11 @@ th, td {
 tr {
    text-align: left;
    vertical-align: top;
-   line-height: 30px;
 }
 tr:nth-child(even) {
    background: rgba(0,0,0,0.1);
 }
 table div.overflow {
-   max-height: 64px;
+   max-height: 80px;
    overflow-y: scroll;
 }
