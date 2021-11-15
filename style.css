@@ -138,6 +138,10 @@ div.hero-navigation-button {
     background: rgba(255, 255, 255, 0.5);
     display: inline-block;
     margin: 6px;
+    transition: 0.2s;
+}
+div.hero-navigation-button:hover {
+    background: rgba(255, 255, 255, 0.75);
 }
 div.hero-navigation-button.selected {
     background: white;
