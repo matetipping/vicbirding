@@ -1,5 +1,6 @@
 window.onscroll = function() {resizeHeader()};
 window.onload = function() {startScript()};
+var nextHero;
 
 function startScript() {
   document.getElementById("nav-hamburger").addEventListener("click", openNavMenu);
@@ -53,10 +54,15 @@ function shuffleHero(current, total) {
   document.getElementById("hero-image-3").style.left = String(200 - heroPositionOffset) + "%";
   document.getElementById("hero-image-4").style.left = String(300 - heroPositionOffset) + "%";
   document.getElementById("hero-image-5").style.left = String(400 - heroPositionOffset) + "%";
-  var nextShuffle = setTimeout(function(){
-    if (current >= total) {
-      current = 1;
-    }
-    shuffleHero(current, total);
+  clearTimeout(nextHero);
+  nextHero = setTimeout(function() {
+    nextShuffle(1, noHeroImgs);
   }, 5000);
+}
+
+function nextShuffle(current, total) {
+  if (current >= total) {
+    current = 1;
+  }
+  shuffleHero(current, total);
 }
