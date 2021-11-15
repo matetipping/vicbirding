@@ -59,5 +59,5 @@ function shuffleHero() {
     }
     var el = document.getElementById("hero-navigation-" + currentHero);
     shiftHero(el);
-  }, 3000);
+  }, 5000);
 }
