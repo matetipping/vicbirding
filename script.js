@@ -2,10 +2,12 @@ window.onscroll = function() {resizeHeader()};
 window.onload = function() {setHandlers()};
 
 function setHandlers() {
-  document.getElementById("nav-hamburger").onclick = function() {openNavMenu()};
+  document.getElementById("nav-hamburger").addEventListener("click", openNavMenu);
   var heroNavButtons = document.getElementsByClassName("hero-navigation-button");
   Array.prototype.forEach.call(heroNavButtons, function(el) {
-    shiftHero(el);
+    el.addEventListener("click", function() {
+      shiftHero(el);
+    });
   });
 }
                             
