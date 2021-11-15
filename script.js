@@ -1,5 +1,6 @@
 window.onscroll = function() {resizeHeader()};
 window.onload = function() {setHandlers()};
+window.onload = function() {shuffleHero()};
 
 function setHandlers() {
   document.getElementById("nav-hamburger").addEventListener("click", openNavMenu);
@@ -45,4 +46,18 @@ function shiftHero(el) {
   document.getElementById("hero-image-3").style.left = String(200 - heroPositionOffset) + "%";
   document.getElementById("hero-image-4").style.left = String(300 - heroPositionOffset) + "%";
   document.getElementById("hero-image-5").style.left = String(400 - heroPositionOffset) + "%";
+}
+
+function shuffleHero() {
+  var noHeroImgs = document.getElementsByClassName("hero-image").length;
+  var currentHero = 1;
+  setInterval(function(){
+    if (currentHero < noHeroImgs) {
+      currentHero ++;
+    } else if (currentHero >= noHeroImgs) {
+      currentHero = 1;
+    }
+    var el = document.getElementById("hero-navigation-" + currentHero);
+    shiftHero(el);
+  }, 3000);
 }
