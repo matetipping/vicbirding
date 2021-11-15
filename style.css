@@ -1,5 +1,9 @@
 img#logo {
     height: 120px;
+    transition: 0.2s;
+}
+img#logo:hover {
+    filter: saturate(80%);
 }
 body {
     font-family: "Montserrat", sans-serif;
