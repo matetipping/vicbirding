@@ -176,3 +176,6 @@ tr {
    vertical-align: top;
    line-height: 30px;
 }
+tr:nth-child(odd) {
+   background: rgba(0,0,0,0.1);
+}
