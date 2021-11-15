@@ -178,6 +178,10 @@ tr {
    vertical-align: top;
    line-height: 30px;
 }
-tr:nth-child(odd) {
+tr:nth-child(even) {
    background: rgba(0,0,0,0.1);
+}
+table div.overflow {
+   max-height: 30px;
+   overflow-y: scroll;
 }
