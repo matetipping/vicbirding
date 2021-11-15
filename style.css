@@ -182,5 +182,5 @@ tr:nth-child(even) {
 }
 table div.overflow {
    max-height: 80px;
-   overflow-y: scroll;
+   overflow-y: auto;
 }
