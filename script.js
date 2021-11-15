@@ -4,12 +4,13 @@ window.onload = function() {startScript()};
 function startScript() {
   document.getElementById("nav-hamburger").addEventListener("click", openNavMenu);
   var heroNavButtons = document.getElementsByClassName("hero-navigation-button");
+  var heroShuffler;
   Array.prototype.forEach.call(heroNavButtons, function(el) {
     el.addEventListener("click", function() {
-      shiftHero(el);
+      shiftHero(el, heroShuffler);
     });
   });
-  shuffleHero();
+  shuffleHero(heroShuffler);
 }
                             
 function resizeHeader() {
@@ -36,7 +37,7 @@ function openNavMenu() {
   }
 }
 
-function shiftHero(el) {
+function shiftHero(el, shuffler) {
   document.getElementsByClassName("hero-navigation-button selected")[0].classList.remove("selected");
   el.classList.add("selected");
   var selectedImageNo = el.id.split("-")[2];
@@ -46,18 +47,27 @@ function shiftHero(el) {
   document.getElementById("hero-image-3").style.left = String(200 - heroPositionOffset) + "%";
   document.getElementById("hero-image-4").style.left = String(300 - heroPositionOffset) + "%";
   document.getElementById("hero-image-5").style.left = String(400 - heroPositionOffset) + "%";
+  var noHeroImgs = document.getElementsByClassName("hero-navigation-button").length;
+  clearInterval(shuffler);
+  shuffler = setInterval(function(){
+    swapToNextHero(selectedImageNo, noHeroImgs);
+  }, 5000);
 }
 
-function shuffleHero() {
+function shuffleHero(shuffler) {
   var noHeroImgs = document.getElementsByClassName("hero-navigation-button").length;
   var currentHero = Number(document.getElementsByClassName("hero-navigation-button selected")[0].id.split("-")[2]);
-  var heroShuffler = setInterval(function(){
-    if (currentHero < noHeroImgs) {
-      currentHero ++;
-    } else if (currentHero >= noHeroImgs) {
-      currentHero = 1;
-    }
-    var el = document.getElementById("hero-navigation-" + currentHero);
-    shiftHero(el);
+  shuffler = setInterval(function(){
+    swapToNextHero(currentHero, noHeroImgs);
   }, 5000);
+}
+
+function swapToNextHero(current, total) {
+  if (current < total) {
+      current ++;
+    } else {
+      current = 1;
+    }
+    var el = document.getElementById("hero-navigation-" + current);
+    shiftHero(el);
 }
