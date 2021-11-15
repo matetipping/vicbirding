@@ -108,6 +108,21 @@ div#hero img {
     position: absolute;
     transition: 0.2s;
 }
+div#hero img#hero-image-1 {
+    left: 0;
+}
+div#hero img#hero-image-2 {
+    left: 100%;
+}
+div#hero img#hero-image-3 {
+    left: 200%;
+}
+div#hero img#hero-image-4 {
+    left: 300%;
+}
+div#hero img#hero-image-5 {
+    left: 400%;
+}
 div#hero div#copyright {
     position: absolute;
     bottom: 0;
