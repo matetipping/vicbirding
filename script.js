@@ -40,7 +40,6 @@ function shiftHero(el) {
   el.classList.add("selected");
   var selectedImageNo = el.id.split("-")[2];
   var heroPositionOffset = (Number(selectedImageNo) - 1) * 100;
-  console.log(selectedImageNo);
   document.getElementById("hero-image-1").style.left = String(0 - heroPositionOffset) + "%";
   document.getElementById("hero-image-2").style.left = String(100 - heroPositionOffset) + "%";
   document.getElementById("hero-image-3").style.left = String(200 - heroPositionOffset) + "%";
