@@ -50,7 +50,7 @@ function shiftHero(el) {
 
 function shuffleHero() {
   var noHeroImgs = document.getElementsByClassName("hero-image").length;
-  var currentHero = 1;
+  var currentHero = Number(document.getElementsByClassName("hero-navigation-button selected")[0].id.split("-")[2]);
   setInterval(function(){
     if (currentHero < noHeroImgs) {
       currentHero ++;
