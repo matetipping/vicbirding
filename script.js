@@ -56,7 +56,7 @@ function shuffleHero(current, total) {
   document.getElementById("hero-image-5").style.left = String(400 - heroPositionOffset) + "%";
   clearTimeout(nextHero);
   nextHero = setTimeout(function() {
-    nextShuffle(current, total);
+    nextShuffle(current + 1, total);
   }, 5000);
 }
 
