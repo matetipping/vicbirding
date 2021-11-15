@@ -1,8 +1,7 @@
 window.onscroll = function() {resizeHeader()};
-window.onload = function() {setHandlers()};
-window.onload = function() {shuffleHero()};
+window.onload = function() {startScript()};
 
-function setHandlers() {
+function startScript() {
   document.getElementById("nav-hamburger").addEventListener("click", openNavMenu);
   var heroNavButtons = document.getElementsByClassName("hero-navigation-button");
   Array.prototype.forEach.call(heroNavButtons, function(el) {
@@ -10,6 +9,7 @@ function setHandlers() {
       shiftHero(el);
     });
   });
+  shuffleHero();
 }
                             
 function resizeHeader() {
