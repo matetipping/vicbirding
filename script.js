@@ -54,7 +54,7 @@ function shiftHero(el, shuffler) {
   var noHeroImgs = document.getElementsByClassName("hero-navigation-button").length;
   clearInterval(shuffler);
   return setInterval(function(){
-    shuffleHero(selectedImageNo, noHeroImgs);
+    shuffleHero(Number(selectedImageNo), noHeroImgs);
   }, 5000);
 }
 
