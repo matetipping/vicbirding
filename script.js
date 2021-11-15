@@ -4,13 +4,17 @@ window.onload = function() {startScript()};
 function startScript() {
   document.getElementById("nav-hamburger").addEventListener("click", openNavMenu);
   var heroNavButtons = document.getElementsByClassName("hero-navigation-button");
-  var heroShuffler;
+  
+  var noHeroImgs = document.getElementsByClassName("hero-navigation-button").length;
+  var currentHero = Number(document.getElementsByClassName("hero-navigation-button selected")[0].id.split("-")[2]);
+  var heroShuffler = setInterval(function(){
+    shuffleHero(currentHero, noHeroImgs);
+  }, 5000);
   Array.prototype.forEach.call(heroNavButtons, function(el) {
     el.addEventListener("click", function() {
-      shiftHero(el, heroShuffler);
+      heroShuffler = shiftHero(el, heroShuffler);
     });
   });
-  shuffleHero(heroShuffler);
 }
                             
 function resizeHeader() {
@@ -49,20 +53,12 @@ function shiftHero(el, shuffler) {
   document.getElementById("hero-image-5").style.left = String(400 - heroPositionOffset) + "%";
   var noHeroImgs = document.getElementsByClassName("hero-navigation-button").length;
   clearInterval(shuffler);
-  shuffler = setInterval(function(){
-    swapToNextHero(selectedImageNo, noHeroImgs);
+  return setInterval(function(){
+    shuffleHero(selectedImageNo, noHeroImgs);
   }, 5000);
 }
 
-function shuffleHero(shuffler) {
-  var noHeroImgs = document.getElementsByClassName("hero-navigation-button").length;
-  var currentHero = Number(document.getElementsByClassName("hero-navigation-button selected")[0].id.split("-")[2]);
-  shuffler = setInterval(function(){
-    swapToNextHero(currentHero, noHeroImgs);
-  }, 5000);
-}
-
-function swapToNextHero(current, total) {
+function shuffleHero(current, total) {
   if (current < total) {
       current ++;
     } else {
