@@ -142,9 +142,6 @@ div#hero-navigation {
     bottom: 0;
     transition: 0.2s;
 }
-div#hero-navigation:hover {
-    background: linear-gradient(0deg, #236, transparent);
-}
 div#hero-navigation-inner {
     margin: auto;
     width: fit-content;
