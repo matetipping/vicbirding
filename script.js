@@ -6,8 +6,8 @@ function startScript() {
   document.getElementById("nav-hamburger").addEventListener("click", openNavMenu);
   var heroNavButtons = document.getElementsByClassName("hero-navigation-button");
   
-  var noHeroImgs = document.getElementsByClassName("hero-navigation-button").length;
-  shuffleHero(1, noHeroImgs);
+  var total = document.getElementsByClassName("hero-navigation-button").length;
+  shuffleHero(1, total);
   Array.prototype.forEach.call(heroNavButtons, function(el) {
     el.addEventListener("click", function() {
       shiftHero(el);
@@ -42,7 +42,7 @@ function openNavMenu() {
 function shiftHero(el) {
   var newHero = Number(el.id.split("-")[2]);
   var total = document.getElementsByClassName("hero-navigation-button").length;
-  shuffleHero(newHero, noHeroImgs);
+  shuffleHero(newHero, total);
 }
 
 function shuffleHero(current, total) {
