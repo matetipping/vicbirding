@@ -34,8 +34,10 @@ function openNavMenu() {
 }
 
 function shiftHero(el) {
+  document.getElementsByClassName("hero-navigation-button selected")[0].classList.remove("selected");
+  el.classList.add("selected");
   var selectedImageNo = el.id.split("-")[2];
-  var heroPositionOffset = Number(selectedImageNo - 1) * 100;
+  var heroPositionOffset = (Number(selectedImageNo) - 1) * 100;
   console.log(selectedImageNo);
   document.getElementById("hero-image-1").css("left", String(0 - heroPositionOffset) + "%");
   document.getElementById("hero-image-2").css("left", String(100 - heroPositionOffset) + "%");
