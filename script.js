@@ -3,6 +3,10 @@ window.onload = function() {setHandlers()};
 
 function setHandlers() {
   document.getElementById("nav-hamburger").onclick = function() {openNavMenu()};
+  var heroNavButtons = document.getElementsByClassName("hero-navigation-button");
+  Array.prototype.forEach.call(heroNavButtons, function(el) {
+    shiftHero(el);
+  });
 }
                             
 function resizeHeader() {
@@ -27,4 +31,15 @@ function openNavMenu() {
     document.getElementById("nav-hamburger").classList.add("selected");
     document.getElementsByTagName("nav")[0].style.right = "0px";
   }
+}
+
+function shiftHero(el) {
+  var selectedImageNo = el.id.split("-")[2];
+  var heroPositionOffset = Number(selectedImageNo - 1) * 100;
+  console.log(selectedImageNo);
+  document.getElementById("hero-image-1").css("left", String(0 - heroPositionOffset) + "%");
+  document.getElementById("hero-image-2").css("left", String(100 - heroPositionOffset) + "%");
+  document.getElementById("hero-image-3").css("left", String(200 - heroPositionOffset) + "%");
+  document.getElementById("hero-image-4").css("left", String(300 - heroPositionOffset) + "%");
+  document.getElementById("hero-image-5").css("left", String(400 - heroPositionOffset) + "%");
 }
