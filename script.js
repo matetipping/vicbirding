@@ -61,7 +61,7 @@ function shuffleHero(current, total) {
 }
 
 function nextShuffle(current, total) {
-  if (current >= total) {
+  if (current > total) {
     current = 1;
   }
   shuffleHero(current, total);
