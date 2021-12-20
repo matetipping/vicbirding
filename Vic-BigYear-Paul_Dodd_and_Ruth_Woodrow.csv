@@ -1,0 +1,389 @@
+﻿1,Emu
+2,Magpie Goose
+3,Plumed Whistling Duck
+4,Cape Barren Goose
+5,Freckled Duck
+6,Black Swan
+7,Australian Shelduck
+8,Australian Wood Duck
+9,Australasian Shoveler
+10,Pacific Black Duck
+11,Grey Teal
+12,Chestnut Teal
+13,Pink-eared Duck
+14,Hardhead
+15,Blue-billed Duck
+16,Musk Duck
+17,Malleefowl
+18,Brown Quail
+19,Stubble Quail
+20,Australasian Grebe
+21,Hoary-headed Grebe
+22,Great Crested Grebe
+23,Rock Dove
+24,White-headed Pigeon
+25,Spotted Dove
+26,Common Bronzewing
+27,Brush Bronzewing
+28,Crested Pigeon
+29,Wonga Pigeon
+30,Peaceful Dove
+31,Diamond Dove
+32,Topknot Pigeon
+33,Pacific Koel
+34,Channel-billed Cuckoo
+35,Horsfield's Bronze Cuckoo
+36,Black-eared Cuckoo
+37,Shining Bronze Cuckoo
+38,Pallid Cuckoo
+39,Fan-tailed Cuckoo
+40,Brush Cuckoo
+41,Tawny Frogmouth
+42,Spotted Nightjar
+43,White-throated Nightjar
+44,Australian Owlet-Nightjar
+45,Pacific Swift
+46,White-throated Needletail
+47,Lewin's Rail
+48,Buff-banded Rail
+49,Black-tailed Nativehen
+50,Australian Spotted Crake
+51,Australasian Swamphen
+52,Dusky Moorhen
+53,Eurasian Coot
+54,Baillon's Crake
+55,Spotless Crake
+56,Brolga
+57,Bush Stone-curlew
+58,Pied Stilt
+59,Banded Stilt
+60,Red-necked Avocet
+61,Australian Pied Oystercatcher
+62,Sooty Oystercatcher
+63,Pacific Golden Plover
+64,Grey Plover
+65,Banded Lapwing
+66,Masked Lapwing
+67,Lesser Sand Plover
+68,Greater Sand Plover
+69,Double-banded Plover
+70,Red-capped Plover
+71,Red-kneed Dotterel
+72,Hooded Plover
+73,Black-fronted Dotterel
+74,Inland Dotterel
+75,Plains-wanderer
+76,Little Curlew
+77,Eurasian Whimbrel
+78,Eastern Curlew
+79,Bar-tailed Godwit
+80,Black-tailed Godwit
+81,Ruddy Turnstone
+82,Great Knot
+83,Red Knot
+84,Ruff
+85,Sharp-tailed Sandpiper
+86,Stilt Sandpiper
+87,Curlew Sandpiper
+88,Red-necked Stint
+89,Sanderling
+90,Pectoral Sandpiper
+91,Broad-billed Sandpiper
+92,Latham's Snipe
+93,Terek Sandpiper
+94,Common Sandpiper
+95,Grey-tailed Tattler
+96,Common Greenshank
+97,Marsh Sandpiper
+98,Wood Sandpiper
+99,Painted Buttonquail
+100,Little Buttonquail
+101,Red-chested Buttonquail
+102,Brown Skua
+103,Pomarine Jaeger
+104,Arctic Jaeger
+105,Silver Gull
+106,Pacific Gull
+107,Kelp Gull
+108,Little Tern
+109,Fairy Tern
+110,Australian Tern
+111,Caspian Tern
+112,White-winged Black Tern
+113,Whiskered Tern
+114,White-fronted Tern
+115,Common Tern
+116,Arctic Tern
+117,Crested Tern
+118,Little Penguin
+119,Indian Yellow-nosed Albatross
+120,Buller's Albatross
+121,Shy Albatross
+122,Salvin's Albatross
+123,Black-browed Albatross
+124,Campbell Albatross
+125,Northern Royal Albatross
+126,Southern Royal Albatross
+127,Wandering Albatross
+128,Antipodean Albatross
+129,Wilson's Storm Petrel
+130,Grey-backed Storm Petrel
+131,White-faced Storm Petrel
+132,Northern Giant Petrel
+133,Southern Giant Petrel
+134,Cape Petrel
+135,Grey-faced Petrel
+136,Great-winged Petrel
+137,Soft-plumaged Petrel
+138,Fairy Prion
+139,Antarctic Prion
+140,Slender-billed Prion
+141,Blue Petrel
+142,White-chinned Petrel
+143,Sooty Shearwater
+144,Short-tailed Shearwater
+145,Hutton's Shearwater
+146,Fluttering Shearwater
+147,Common Diving Petrel
+148,Australasian Gannet
+149,Australasian Darter
+150,Little Pied Cormorant
+151,Great Cormorant
+152,Little Black Cormorant
+153,Pied Cormorant
+154,Black-faced Cormorant
+155,Australian Pelican
+156,Australasian Bittern
+157,Black Bittern
+158,Australian Little Bittern
+159,White-necked Heron
+160,Great Egret
+161,Intermediate Egret
+162,White-faced Heron
+163,Little Egret
+164,Eastern Reef Egret
+165,Eastern Cattle Egret
+166,Striated Heron
+167,Nankeen Night Heron
+168,Glossy Ibis
+169,Australian White Ibis
+170,Straw-necked Ibis
+171,Royal Spoonbill
+172,Yellow-billed Spoonbill
+173,Black-shouldered Kite
+174,Square-tailed Kite
+175,Little Eagle
+176,Wedge-tailed Eagle
+177,Swamp Harrier
+178,Spotted Harrier
+179,Grey Goshawk
+180,Brown Goshawk
+181,Collared Sparrowhawk
+182,Black Kite
+183,Whistling Kite
+184,White-bellied Sea Eagle
+185,Greater Sooty Owl
+186,Eastern Barn Owl
+187,Australian Masked Owl
+188,Powerful Owl
+189,Barking Owl
+190,Australian Boobook
+191,Azure Kingfisher
+192,Laughing Kookaburra
+193,Red-backed Kingfisher
+194,Sacred Kingfisher
+195,Rainbow Bee-eater
+196,Oriental Dollarbird
+197,Nankeen Kestrel
+198,Australian Hobby
+199,Brown Falcon
+200,Black Falcon
+201,Peregrine Falcon
+202,Red-tailed Black Cockatoo
+203,Glossy Black Cockatoo
+204,Yellow-tailed Black Cockatoo
+205,Gang-gang Cockatoo
+206,Major Mitchell's Cockatoo
+207,Galah
+208,Long-billed Corella
+209,Little Corella
+210,Sulphur-crested Cockatoo
+211,Cockatiel
+212,Superb Parrot
+213,Regent Parrot
+214,Australian King Parrot
+215,Eastern Ground Parrot
+216,Blue-winged Parrot
+217,Elegant Parrot
+218,Orange-bellied Parrot
+219,Turquoise Parrot
+220,Swift Parrot
+221,Australian Ringneck
+222,Crimson Rosella
+223,Eastern Rosella
+224,Greater Bluebonnet
+225,Red-rumped Parrot
+226,Mulga Parrot
+227,Budgerigar
+228,Little Lorikeet
+229,Purple-crowned Lorikeet
+230,Musk Lorikeet
+231,Rainbow Lorikeet
+232,Superb Lyrebird
+233,Satin Bowerbird
+234,White-throated Treecreeper
+235,White-browed Treecreeper
+236,Red-browed Treecreeper
+237,Brown Treecreeper
+238,Southern Emuwren
+239,Mallee Emuwren
+240,Purple-backed Fairywren
+241,Splendid Fairywren
+242,Superb Fairywren
+243,White-winged Fairywren
+244,Eastern Spinebill
+245,Pied Honeyeater
+246,Lewin's Honeyeater
+247,White-fronted Honeyeater
+248,Yellow-faced Honeyeater
+249,Yellow-tufted Honeyeater
+250,Purple-gaped Honeyeater
+251,Bell Miner
+252,Noisy Miner
+253,Yellow-throated Miner
+254,Spiny-cheeked Honeyeater
+255,Little Wattlebird
+256,Red Wattlebird
+257,Regent Honeyeater
+258,Singing Honeyeater
+259,Yellow-plumed Honeyeater
+260,White-plumed Honeyeater
+261,Fuscous Honeyeater
+262,Orange Chat
+263,White-fronted Chat
+264,Black Honeyeater
+265,Scarlet Honeyeater
+266,Tawny-crowned Honeyeater
+267,Crescent Honeyeater
+268,New Holland Honeyeater
+269,White-eared Honeyeater
+270,Blue-faced Honeyeater
+271,White-naped Honeyeater
+272,Brown-headed Honeyeater
+273,Black-chinned Honeyeater
+274,Striped Honeyeater
+275,Painted Honeyeater
+276,Noisy Friarbird
+277,Eastern Bristlebird
+278,Rufous Bristlebird
+279,Spotted Pardalote
+280,Striated Pardalote
+281,Pilotbird
+282,White-browed Scrubwren
+283,Large-billed Scrubwren
+284,Redthroat
+285,Speckled Warbler
+286,Rufous Fieldwren
+287,Striated Fieldwren
+288,Chestnut-rumped Heathwren
+289,Shy Heathwren
+290,Buff-rumped Thornbill
+291,Slender-billed Thornbill
+292,Brown Thornbill
+293,Inland Thornbill
+294,Yellow-rumped Thornbill
+295,Chestnut-rumped Thornbill
+296,Yellow Thornbill
+297,Striated Thornbill
+298,Weebill
+299,White-throated Gerygone
+300,Brown Gerygone
+301,Western Gerygone
+302,Southern Whiteface
+303,Grey-crowned Babbler
+304,White-browed Babbler
+305,Chestnut-crowned Babbler
+306,Spotted Quailthrush
+307,Chestnut Quailthrush
+308,Black-faced Cuckooshrike
+309,White-bellied Cuckooshrike
+310,White-winged Triller
+311,Common Cicadabird
+312,Varied Sittella
+313,Eastern Whipbird
+314,Crested Bellbird
+315,Crested Shriketit
+316,Grey Shrikethrush
+317,Olive Whistler
+318,Red-lored Whistler
+319,Gilbert's Whistler
+320,Golden Whistler
+321,Western Whistler
+322,Rufous Whistler
+323,Olive-backed Oriole
+324,Australasian Figbird
+325,White-breasted Woodswallow
+326,Masked Woodswallow
+327,White-browed Woodswallow
+328,Black-faced Woodswallow
+329,Dusky Woodswallow
+330,Grey Butcherbird
+331,Pied Butcherbird
+332,Australian Magpie
+333,Pied Currawong
+334,Grey Currawong
+335,Willie Wagtail
+336,Rufous Fantail
+337,Grey Fantail
+338,Spangled Drongo
+339,Black-faced Monarch
+340,Magpie-lark
+341,Leaden Flycatcher
+342,Satin Flycatcher
+343,Restless Flycatcher
+344,White-winged Chough
+345,Apostlebird
+346,Little Crow
+347,Australian Raven
+348,Little Raven
+349,Forest Raven
+350,Jacky Winter
+351,Scarlet Robin
+352,Flame Robin
+353,Rose Robin
+354,Pink Robin
+355,Red-capped Robin
+356,Hooded Robin
+357,Eastern Yellow Robin
+358,Southern Scrub Robin
+359,Australasian Bushlark
+360,Eurasian Skylark
+361,Golden-headed Cisticola
+362,Australian Reed Warbler
+363,Little Grassbird
+364,Brown Songlark
+365,Rufous Songlark
+366,Welcome Swallow
+367,Fairy Martin
+368,Tree Martin
+369,White-backed Swallow
+370,Silvereye
+371,Common Starling
+372,Common Myna
+373,Bassian Thrush
+374,Song Thrush
+375,Common Blackbird
+376,Mistletoebird
+377,Diamond Firetail
+378,Beautiful Firetail
+379,Red-browed Finch
+380,Double-barred Finch
+381,Zebra Finch
+382,House Sparrow
+383,Eurasian Tree Sparrow
+384,Australian Pipit
+385,European Greenfinch
+386,European Goldfinch
+,Mallard
+,African Collared Dove
+,Red-whiskered Bulbul
